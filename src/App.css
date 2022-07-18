@@ -1,0 +1,370 @@
+@import url('https://fonts.googleapis.com/css2?family=Joan&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nuosu+SIL&display=swap');
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+html,body{
+  height:100%;
+  width:100%;
+}
+
+body{
+  min-height:100%;
+}
+
+/* Navbar */
+.navbar-brand{
+  font-size:1.5rem;
+  color:orange;
+  font-weight: 600;
+}
+
+.nav li{
+  margin:0 10px;
+}
+
+.nav li a{
+  color:white;
+  text-decoration: none;
+  font-size:medium;
+  position: relative;
+}
+
+.nav li a:hover{
+  color:white;
+  text-decoration:underline;
+  text-decoration-color: white;  
+}
+
+.nav-item{
+  display: flex;
+  justify-content:center;
+  align-items: center;
+}
+
+.nav-item i{
+  color:white;
+  font-size: 18px;
+  
+}
+
+.intro{
+  background-color: black;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+ .intro-text{
+  font-family: 'Joan',sans-serif;
+  color:white;
+  animation:intro-text  linear;
+  animation-duration: 3s;
+
+}
+
+
+
+.intro .intro-text h1{
+ font-size:60px;
+ letter-spacing: 0.4rem;
+ 
+ background: linear-gradient(to right, #ef5350, #f48fb1, #7e57c2, #2196f3, #26c6da, #43a047, #eeff41, #f9a825, #ff5722);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.intro .rocket{
+  animation: rocket 3s alternate infinite;
+  transition: 0.5s;
+}
+
+.user{
+  padding-top:1.5em;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.details p{
+  font-family: 'Nuosu SIL', sans-serif;
+  line-height: 2rem;
+  font-size:20px;
+}
+
+.user-image img{
+  width:250px;
+  height:250px;
+  border-radius:10px;
+}
+
+.user-image img:hover{
+  border:2px solid orange;
+}
+
+.education{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+
+
+.education .card:hover{
+  box-shadow:5px 10px 18px black;
+}
+
+.footer{
+ 
+  background:linear-gradient(90deg,pink,aqua);
+  padding:0 0 20px 0;
+  bottom:0;
+}
+
+.footer .wave{
+  margin-top:10vw;
+}
+
+.footer a{
+  font-size:20px;
+  text-decoration: none;
+  margin-left:10px;
+}
+
+.footer i{
+  margin-right:10px;
+  font-size:30px;
+  
+}
+
+.contacts{
+  display: flex;
+  justify-content:space-evenly;
+  align-items: center;
+}
+
+#button-icon{
+  padding:2px 0;
+  background-color: white;
+}
+
+
+/* Skills css */
+.part1{
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+}
+
+.skills{
+  background:linear-gradient(to right,rgb(242,112,156),rgb(255,148,114));
+}
+
+.skills{
+  font-family: 'Joan',sans-serif;
+}
+
+.skills p{
+   color:white;
+   font-size:25px;
+}
+
+.name{
+  font-size:2rem;
+  font-weight:500;
+  letter-spacing: 0.2rem;
+}
+
+.name::first-letter{
+  font-size:3.5rem;
+  color:black;
+}
+
+
+
+
+.frontend{
+  padding:20px 0;
+}
+
+.basic-lang{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  
+}
+
+.card-type{
+  width:200px;
+  height:200px;
+  display: flex;
+  margin:5px;
+  border-radius:15px;
+  /* filter: blur(5px); */
+  justify-content: center;
+  align-items: center;
+  background:white;
+  animation: card-box 2s infinite;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.card-type:hover{
+  margin:5px;
+  background:linear-gradient(95.2deg,rgba(173,252,234,1) 26.8% ,rgba(192,229,246,1) 64%); 
+  box-shadow:15px 5px  8px black ;
+}
+
+.card-type a{
+  color:black;
+  text-decoration: none;
+}
+
+/* Projects */
+.box-1{
+  display: flex;
+  justify-content: space-around;  
+}
+
+.box-1 .card{
+  margin: 10px 0;
+  padding:10px;
+  border-radius:10px;
+  max-width: 500px;
+  box-shadow:5px 3px 7px black;
+}
+
+/* .box-1 .card{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.card .btn:hover{
+  background-color: rgba(29, 238, 29, 0.866);
+} */
+
+.intro-projects{
+  position: relative;
+  margin-top:15px;
+  text-align: center;
+  font-family: 'Joan',sans-serif;
+  font-size:20px;
+  font-style: italic; 
+}
+
+.experience #matter{
+  font-family: 'Joan',sans-serif;
+}
+
+.card-img-top{
+  width:100%;
+  height:10vw;
+  object-fit: cover;
+}
+
+.experience #matter p{
+   font-size: 20px;
+   line-height:2rem;
+   font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.project-link a{
+  padding:10px 30px;
+  border: 3px gray solid;
+  border-radius:10px;
+  color:black;
+  font-size:20px;
+  animation: color-change 2s infinite;
+  transition: all 0.3s;
+}
+
+.letter img{
+  /* width:500px;
+  height:500px; */
+  object-fit: cover;
+}
+
+.letter b{
+  font-size:20px
+}
+
+
+/* Animations */
+
+@keyframes rocket {
+  0%{
+    transform: rotate(-10deg);
+  }
+ 
+  100%{
+    transform: rotate(10deg);
+  }
+}
+
+@keyframes intro-text{
+  0%{
+    margin-left:-200px;
+  }
+  100%{
+    margin-left:20px;
+  }
+}
+
+
+
+@keyframes card-box{
+  0%{
+    transform: translateY(-15px);
+  }
+  50%{
+    transform: translateY(0px);
+  }
+  100%{
+    transform: translateY(-15px);
+  }
+}
+
+@keyframes color-change{
+  0%{
+    background-color: aqua;
+  }
+  50%{
+    background-color: rgb(20, 215, 20);
+  }
+  100%{
+    background-color: aqua;
+  }
+}
+
+
+
+/* Media Query */
+
+@media only screen and (max-width:768px){
+  .intro{
+    display: block;
+  }
+  .user{
+    display: block;
+  }
+  .education{
+    display: block;
+  }
+  .education .card{
+    margin:0 auto;
+    margin-bottom: 10px;
+  }
+  .nav-item i{
+    padding:0 10px;
+  }
+  .box-1{
+    margin-left:10px;
+    display: block;
+  }
+}
+
