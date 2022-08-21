@@ -38,6 +38,16 @@ function Projects() {
                     <a href='https://food-recipe-api.vercel.app/' target="_blank" className='btn btn-primary'>View Project</a>
                   </div>
                 </div>
+                <div className='card'>
+                  <img className='img-fluid card-img-top' src='https://static.vecteezy.com/system/resources/previews/003/275/730/original/shopping-bag-store-logo-online-shopping-logo-design-free-vector.jpg' alt='..'/>
+                  <div className='card-title'>
+                    <h2 className='text-center pt-2'>ECOMMERCE WEBSITE</h2>
+                  </div>
+                  <div className='card-body'>
+                    <p>This is a ecommerce website made with NEXTJS, Sanity and Stripe which are some latest technologies.</p>
+                    <a href='https://ecommerce-sanity-stripe-website-c3kepo4lu-saijairam.vercel.app/' target="_blank" className='btn btn-primary'>View Project</a>
+                  </div>
+                </div>
                
             </div>
         </div>
