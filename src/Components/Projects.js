@@ -38,6 +38,8 @@ function Projects() {
                     <a href='https://food-recipe-api.vercel.app/' target="_blank" className='btn btn-primary'>View Project</a>
                   </div>
                 </div>
+              </div>
+              <div className='box-1 mt-3'>
                 <div className='card'>
                   <img className='img-fluid card-img-top' src='https://static.vecteezy.com/system/resources/previews/003/275/730/original/shopping-bag-store-logo-online-shopping-logo-design-free-vector.jpg' alt='..'/>
                   <div className='card-title'>
@@ -48,8 +50,7 @@ function Projects() {
                     <a href='https://ecommerce-sanity-stripe-website-c3kepo4lu-saijairam.vercel.app/' target="_blank" className='btn btn-primary'>View Project</a>
                   </div>
                 </div>
-               
-            </div>
+             </div>
         </div>
         <Footer/>
     </div>
